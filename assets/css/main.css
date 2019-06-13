@@ -2443,7 +2443,7 @@ input, select, textarea {
 		button.fit,
 		.button.fit {
 			width: 70%;
-			margin-left: 200px;
+			margin-bottom: 10px;
 			}
 
 		input[type="submit"].small,
@@ -3747,8 +3747,11 @@ input, select, textarea {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			padding-right: 3em;
-			width: 70%;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		
 		}
 
 			#cta .inner header p {
@@ -3826,7 +3829,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
-				padding: 10em 0 8em 0 ;
+				padding: 3em ;
 			}
 
 		}
@@ -3834,7 +3837,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main > header {
-				padding: 8em 3em 6em 3em ;
+				padding: 3em ;
 			}
 
 		}
@@ -3842,7 +3845,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#main > header {
-				padding: 10em 3em 8em 3em ;
+				padding: 3em ;
 			}
 
 		}
@@ -3850,7 +3853,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > header {
-				padding: 5em 3em 3em 3em ;
+				padding: 3em ;
 			}
 
 				#main > header h2 {
