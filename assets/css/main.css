@@ -2776,6 +2776,8 @@ input, select, textarea {
 		margin-left: 1rem;
 	}
 
+	
+
 		.wrapper > .inner {
 			width: 70em;
 			margin: 0 auto;
@@ -2802,6 +2804,14 @@ input, select, textarea {
 			flex-direction: row;
 				}
 
+			}
+
+			@media screen and (max-width: 660px) {
+				.wrapper > .inner {
+					width: 70%;
+					display: flex;
+			flex-direction: column;
+				}
 			}
 
 		.wrapper.alt {
